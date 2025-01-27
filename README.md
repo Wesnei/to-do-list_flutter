@@ -1,16 +1,57 @@
-# life_cycle
+# Lista de Tarefas com Flutter
 
-A new Flutter project.
+Este projeto é uma aplicação de lista de tarefas desenvolvida usando Flutter. Ele permite que os usuários adicionem, visualizem e removam tarefas.
 
-## Getting Started
+## Índice
 
-This project is a starting point for a Flutter application.
+- [Instalação](#instalação)
+- [Uso](#uso)
+- [Arquivos Principais](#arquivos-principais)
+- [Contribuição](#contribuição)
+- [Licença](#licença)
 
-A few resources to get you started if this is your first Flutter project:
+## Instalação
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+Para clonar e executar esta aplicação, siga os passos abaixo:
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+1. Clone este repositório:
+    ```sh
+    git clone https://github.com/Wesnei/to-do-list_flutter.git
+    ```
+
+2. Navegue até o diretório do projeto:
+    ```sh
+    cd to-do-list_flutter
+    ```
+
+3. Instale as dependências:
+    ```sh
+    flutter pub get
+    ```
+
+4. Execute a aplicação:
+    ```sh
+    flutter run
+    ```
+
+## Uso
+
+Após a instalação, você pode usar a aplicação para:
+
+- Adicionar novas tarefas
+- Visualizar a lista de tarefas
+- Remover tarefas concluídas
+
+## Arquivos Principais
+
+- **main.dart**: Ponto de entrada da aplicação.
+- **formulario.dart**: Contém o formulário para adicionar novas tarefas.
+- **listaDeTarefas.dart**: Contém a lógica para visualizar e remover tarefas.
+
+## Contribuição
+
+Contribuições são bem-vindas! Sinta-se à vontade para abrir um problema ou enviar um pull request.
+
+## Licença
+
+Este projeto está licenciado sob a Licença MIT. Consulte o arquivo [LICENSE](LICENSE) para obter mais detalhes.
